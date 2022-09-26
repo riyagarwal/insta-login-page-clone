@@ -1,0 +1,122 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+
+#main{
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    margin: 10% 40%;
+    width: 22%;
+}
+
+#div1{
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    margin-bottom: 0.8rem;
+    padding: 3rem 0 ;
+    padding-bottom: 1rem;
+}
+
+#div2{
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+.instaIcon{
+    margin-bottom: 2.2rem;
+}
+
+input{
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    background-color: #FAFAFA;
+}
+
+input::placeholder{
+    font-size: small;
+    font-weight: light;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid darkgray;
+}
+
+button{
+    width: 85%;
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+    background-color: #0095F6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: light;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.separator{
+    display: grid;
+    grid-template-columns: 3fr auto 3fr;
+    margin-top: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.separator hr{
+    width: 70%;
+    height: 1px;
+    color: lightsteelblue;
+}
+
+span{
+    font-size: small;
+    font-weight: bold;
+    color: slategray;
+}
+
+#div1a img{
+    width: 1rem;
+    /* margin-top: 1rem; */
+
+}
+h5{
+    color: grey;
+    font-weight: light;
+}
+
+a{
+    color: #385185;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#fb{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.forgotpwd{
+    display: inline-block;      /* This is needed for the margin property to work here */
+    margin-top: 1rem;
+    font-size: small;
+}
+
+p{
+    font-weight: light;
+    font-size: 0.9rem;
+}
+
+.signup{
+    color: #0095F6;
+}
+

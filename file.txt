@@ -1,0 +1,5 @@
+original- 433*495
+my - 413*525
+
+use display: inline-block; when margin/padding property is not working (especially their top / bottom values)
+because it respects these values and prevents them from collapsing
